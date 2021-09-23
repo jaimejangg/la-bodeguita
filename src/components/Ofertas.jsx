@@ -4,8 +4,7 @@ import { ChevronRightIcon } from '@heroicons/react/solid'
 import fabuloso from "../images/Copia de fabuloso.png";
 import suavitel from "../images/Copia de suavitel.png";
 import carisma from "../images/Copia de carisma.png";
-import ace from "../images/Copia de ace).png";
-import nescafe from "../images/Copia de nescafe.png";
+import ace from "../images/Copia de ace).png"
 import fontanella from "../images/Copia de fontanella.png";
 import zucaritas from "../images/Copia de zucaritas.png";
 import junio from "../images/Copia de junio.png";
@@ -34,12 +33,6 @@ const people = [
     name: 'Ace',
     role: 'SUPER OFERTA',
     imageUrl: ace
-
-  },
-  {
-    name: 'Nescafe',
-    role: 'SUPER OFERTA',
-    imageUrl: nescafe
 
   },
   {
