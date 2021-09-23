@@ -147,7 +147,8 @@ export default function Ofertas() {
             <div className="-mt-px flex divide-x divide-gray-200">
               <div className="-ml-px w-0 flex-1 flex bg-gradient-to-r from-green-400 to-blue-500">
                 <Link
-                  to="https://www.facebook.com/LaBodeguitaMexico/"
+                  to={{ pathname: "https://www.facebook.com/LaBodeguitaMexico/" }}
+                  target="_blank"
                   className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500"
                 >
                   <ChevronRightIcon className="w-5 h-5 text-white" aria-hidden="true" />
