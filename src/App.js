@@ -8,7 +8,7 @@ import CallToAction from "./components/CallToAction";
 import Sucursales from "./Sucursales";
 import Footer from "./components/Footer";
 import Contacto from "./components/Contacto";
-import Precios from "./components/Precios";
+import Ofertas from "./components/Ofertas";
 
 function App() {
   return (
@@ -27,9 +27,9 @@ function App() {
         <Route exact path="/contacto">
           <Contacto />
         </Route>
-        {/* <Route exact path="/precios">
-          <Precios />
-        </Route> */}
+        <Route exact path="/ofertas">
+          <Ofertas />
+        </Route>
       </Switch>
     </Router>
   );

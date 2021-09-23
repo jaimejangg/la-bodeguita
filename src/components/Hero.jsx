@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 import img from "../images/costal.jpg";
 
 export default function Hero() {
@@ -33,12 +32,12 @@ export default function Hero() {
                 </Link>
               </div>
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
-                <a
-                  href="https://www.facebook.com/LaBodeguitaMexico"
+                <Link
+                  to="/ofertas"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent font-medium rounded-md text-blue-800 bg-indigo-100 hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
-                  Facebook
-                </a>
+                  Ofertas
+                </Link>
               </div>
             </div>
           </div>
