@@ -1,4 +1,5 @@
 import isotipo from "../images/Copia de isotipo.png";
+import { Link } from "react-router-dom";
 import { ChevronRightIcon } from '@heroicons/react/solid'
 import fabuloso from "../images/Copia de fabuloso.png";
 import suavitel from "../images/Copia de suavitel.png";
@@ -145,13 +146,13 @@ export default function Ofertas() {
           <div>
             <div className="-mt-px flex divide-x divide-gray-200">
               <div className="-ml-px w-0 flex-1 flex bg-gradient-to-r from-green-400 to-blue-500">
-                <a
-                  href={`tel:${person.telephone}`}
+                <Link
+                  to="https://www.facebook.com/LaBodeguitaMexico/"
                   className="relative w-0 flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-br-lg hover:text-gray-500"
                 >
                   <ChevronRightIcon className="w-5 h-5 text-white" aria-hidden="true" />
                   <span className="ml-3 text-white">Ir a Facebook</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
